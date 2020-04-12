@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    android:orientation="vertical"
+    tools:context=".About">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/BasicText"
+            android:layout_weight="1"
+            android:text="Made By:"
+            android:textStyle="bold" />
+
+        <TextView
+            style="@style/BasicText"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="Eszter Kozma"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/BasicText"
+            android:layout_weight="1"
+            android:text="Made For:"
+            android:textStyle="bold" />
+
+        <TextView
+            style="@style/BasicText"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="Udacity Project Musical Structure App"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/BasicText"
+            android:layout_weight="1"
+            android:text="Special thanks:"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:src="@mipmap/drawable_tumbli" />
+
+    </LinearLayout>
+
+</LinearLayout>

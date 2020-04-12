@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:layout_margin="8dp"
+    android:orientation="vertical"
+    tools:context=".RandomGenre">
+
+    <TextView
+        style="@style/BasicText"
+        android:layout_gravity="center"
+        android:text="Do you hate making decisions?"
+        android:textSize="18sp" />
+
+    <TextView
+        style="@style/BasicText"
+        android:layout_gravity="center"
+        android:text="Who doesen't?!"
+        android:textStyle="bold" />
+
+    <TextView
+        style="@style/BasicText"
+        android:gravity="center"
+        android:text="But if you click on the button bellow or random genre generator will suggest you a genre to listen today" />
+
+    <Button
+        android:id="@+id/randomGenre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="randomGenre"
+        android:text="Click here" />
+
+    <TextView
+        android:id="@+id/message"
+        style="@style/BasicText"
+        android:layout_gravity="center"
+        android:textAllCaps="true" />
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:background="#37474F"
+    android:columnCount="2"
+    tools:context="com.example.musicstructure.MainActivity">
+
+    <TextView
+        android:id="@+id/library"
+        style="@style/CategoryStyle"
+        android:text="Your Library" />
+
+    <TextView
+        android:id="@+id/random_genre"
+        style="@style/CategoryStyle"
+        android:text="Random Genre" />
+
+    <TextView
+        android:id="@+id/recommendation"
+        style="@style/CategoryStyle"
+        android:text="Recommendation" />
+
+    <TextView
+        android:id="@+id/about"
+        style="@style/CategoryStyle"
+        android:text="About" />
+
+</GridLayout>
